@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace WPFPrimer
 {
@@ -67,6 +68,11 @@ namespace WPFPrimer
 			dp.Owner = this;
 			dp.ShowDialog();
 			MessageBox.Show(dp.DataContext.ToString());
+		}
+
+		private void ZatvaraSe(object sender, CancelEventArgs e)
+		{
+			//Kod za upis podataka u fajl
 		}
 	}
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFPrimer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Closing="ZatvaraSe">
 	<DockPanel>
 		<UniformGrid Columns="2" DockPanel.Dock="Bottom">
 			<Label FontSize="24">Ime: </Label>
